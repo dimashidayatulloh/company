@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Home Page | Dimas</title>
+        <!-- bootstrap 5 -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+        <!-- style -->
+        <link rel="stylesheet" href="css/style.css" />
+        <!-- icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    </head>
+    <body>
+        <!-- navbar -->
+        <header class="fixed-top">
+            <nav class="navbar navbar-expand-lg navbar-text fw-semibold">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="../img/paseo_logo.png" alt="Bootstrap" width="100" height="40" />
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 list">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="pages/tentang.html">TENTANG PASEO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="pages/produk.html">PRODUK PASEO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="pages/artikel.html">ARTIKEL</a>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#"><i class="far fa-user"></i> MASUK/DAFTAR</a>
+                            </li>
+                            <button class="button" type="submit"><i class="fas fa-search"></i></button>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Hero Section -->
+        <section id="hero">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/landing-1.jpg" class="d-block w-100" alt="..." />
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/landing-2.png" class="d-block w-100" alt="..." />
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/landing-3.png" class="d-block w-100" alt="..." />
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/landing-4.png" class="d-block w-100" alt="..." />
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+        <!-- Kode Section -->
+        <div class="d-flex justify-content-center text-center text-light p-2 kode-bar">
+            <div class="pe-3">
+                <img src="img/icon-gift-box.svg" height="60" />
+            </div>
+            <div class="pe-5">
+                <h5 class="mt-3">MASUKKAN KODE UNIK ANDA UNTUK MENDAPATKAN HADIAH!</h5>
+            </div>
+            <div>
+                <a class="btn btn-success p-3 fw-semibold" href="#" role="button">MASUKKAN KODE UNIK</a>
+            </div>
+        </div>
+
+        <!-- Sertifikat Section -->
+        <section>
+            <div class="container my-5">
+                <div class="row justify-content-around fs-5 pb-5">
+                    <div class="col-md-5">
+                        <h1 class="mb-5">PASEO MEMBERIKAN SENTUHAN KEMEWAHAN DAN KEBAHAGIAAN DALAM KEHIDUPAN SEHARI-HARI. <i class="fas fa-water"></i><br /></h1>
+                        <a class="btn btn-success p-3 fw-semibold" href="#" role="button">BACA SELENGKAPNYA</a>
+                    </div>
+                    <div class="col-md-4 serat-parent w-50">
+                        <div class="row p-4 pb-0">
+                            <div class="col">
+                                <img src="img/icon_7.png" alt="" />
+                            </div>
+                            <div class="col-md-9 serat-alami">
+                                <h4>100% SERAT ALAMI</h4>
+                                <p class="fw-semibold">
+                                    PASEO, tisu dengan kualitas premium yang higienis, lembut dan alami untuk seluruh keluarga. Terbuat dari 100% serat alami yang diperoleh dari perkebunan kayu yang dikelola secara berkelanjutan.
+                                </p>
+                            </div>
+                        </div>
+                        <hr />
+                        <div class="row p-4 pt-0">
+                            <div class="col">
+                                <img src="img/icon_vc.png" alt="" />
+                            </div>
+                            <div class="col-md-9 serat-alami">
+                                <h4>TELAH TERSERTIFIKASI</h4>
+                                <p class="fw-semibold">PASEO telah teruji dermatologis Hypoallergenic, serta bersertifikat Food Grade dan Halal.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="pt-5" />
+            </div>
+        </section>
+
+        <!-- Tips Section -->
+        <section id="tips">
+            <div class="container text-center">
+                <div class="row"><h4>ARTIKEL TIPS</h4></div>
+                <div class="row">
+                    <p>PASEO bebas dari zat pencerah optik dan terbuat dari 100% serat pohon alami. <br /><i class="fas fa-water"></i></p>
+                </div>
+                <div class="row text-start">
+                    <div class="col">
+                        <div class="card">
+                            <img src="img/artikel-1.png" class="card-img-top" alt="..." />
+                            <div class="card-body">
+                                <h5 class="card-title">HOME LIVING</h5>
+                                <p class="card-text">KELUARGA AMAN & SEHAT DENGAN TISU MASAK PASEO</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="img/artikel-2.png" class="card-img-top" alt="..." />
+                            <div class="card-body">
+                                <h5 class="card-title">HOME LIVING</h5>
+                                <p class="card-text">MENGENAL TISU VIRGIN DAN TISU DAUR ULANG</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="img/artikel-3.png" class="card-img-top" alt="..." />
+                            <div class="card-body">
+                                <h5 class="card-title">BEAUTY</h5>
+                                <p class="card-text">JANGAN ASAL MEMBERSIHKAN WAJAH! <br />BEGINI CARA MEMBERSIHKAN WAJAH BEBAS <br />BAKTERI</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row ls-btn">
+                <div class="col"><a class="btn btn-success" href="#" role="button">LIHAT SELENGKAPNYA</a></div>
+            </div>
+        </section>
+
+        <!-- Follow Section -->
+        <section>
+            <div class="d-flex justify-content-center text-center text-light p-4 fol-bar">
+                <div class="pe-3 py-1">
+                    <img src="img/ig-logo.png" height="40" />
+                </div>
+                <div class="pe-5">
+                    <h4 class="mt-2">FOLLOW PASEO DI SOCIAL MEDIA</h4>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portlet section -->
+        <section>
+            <div class="container-fluid d-flex justify-content-center">
+                <div class="row py-4">
+                    <div class="col">
+                        <div class="card" style="width: 20rem">
+                            <img src="img/portlet-1.jpg" class="card-img-top" alt="..." />
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 20rem">
+                            <img src="img/portlet-2.jpg" class="card-img-top" alt="..." />
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 20rem">
+                            <img src="img/portlet-3.jpg" class="card-img-top" alt="..." />
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 20rem">
+                            <img src="img/portlet-4.jpg" class="card-img-top" alt="..." />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- contact -->
+        <section id="contact">
+            <div class="container-fluid d-flex">
+                <div class="row container ms-5">
+                    <div class="col">
+                        <div class="icons">
+                            <ul>
+                                <li>
+                                    <a href="#"><img src="../img/icon_fb.webp" alt="" /></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="../img/icon_yt.webp" alt="" /></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="../img/icon_ig.webp" alt="" /></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <a href="#" class="ms-5"><img src="../img/sinarmas-logo.webp" alt="" /></a>
+                    </div>
+                    <div class="col my-4 informasi">
+                        <ul>
+                            <li><h5>INFORMASI</h5></li>
+                            <li>
+                                <a href="">Kebijakan Privasi</a>
+                            </li>
+                            <li>
+                                <a href="">Peta Situs</a>
+                            </li>
+                            <li>
+                                <a href="">Syarat & Ketentuan Reedem Rewards</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col my-4 hubungi">
+                        <ul>
+                            <li><h5>HUBUNGI KAMI DI</h5></li>
+                            <li><img src="img/icon_mail.webp" alt="" /> tissue_care@app.co.id</li>
+                            <li class="pt-2"><img src="img/icon_cs.webp" alt="" /> +62-800-1-368-368</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- footer -->
+        <footer>
+            <p>Copyright &copy; 2023 PASEO Indonesia</p>
+        </footer>
+
+        <!-- Script -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    </body>
+</html>

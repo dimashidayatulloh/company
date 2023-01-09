@@ -1,0 +1,144 @@
+:root {
+    --warna-text: #2e5aac;
+    --warna-utama: rgb(218, 165, 32);
+}
+
+/* style */
+* {
+    list-style: none;
+}
+body {
+    overflow-x: hidden;
+    height: 100vh;
+    width: 100%;
+}
+header {
+    background-color: #fff;
+}
+.navbar {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+.navbar a,
+i {
+    color: var(--warna-text);
+}
+
+.navbar a:hover {
+    color: var(--warna-text);
+}
+.list li a:hover {
+    color: var(--warna-utama);
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 26px;
+}
+.fa-water {
+    padding-top: 0.5rem;
+    font-size: 2rem;
+}
+section i {
+    color: var(--warna-utama);
+}
+
+/* style button */
+.button {
+    border: 0;
+    background: 0;
+}
+.btn {
+    border-radius: 0;
+    background: var(--warna-utama);
+}
+.btn:hover {
+    background: var(--warna-text);
+}
+
+/* style Hero */
+#hero {
+    padding-top: 10rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    color: #fff;
+    background: url(../img/bg-gradient.jpeg);
+    background-size: cover;
+}
+#hero p {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+/* Style Artikel */
+.card {
+    border: none;
+    cursor: pointer;
+}
+.card img {
+    border-radius: 0;
+    height: 250px;
+}
+.card h5 {
+    color: var(--warna-text);
+}
+.card a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 500;
+}
+.card a:hover {
+    text-decoration: underline;
+    color: var(--warna-text);
+}
+
+/* Style Footer */
+#contact {
+    margin-top: 50px;
+    border-top: 2px solid var(--warna-utama);
+    background: rgba(221, 221, 221, 0.559);
+    padding-bottom: 5rem;
+}
+.icons ul {
+    display: flex;
+    padding-top: 15px;
+}
+.icons ul li {
+    padding: 10px;
+}
+.icons ul li img {
+    padding: 1px;
+    width: 3.5rem;
+    height: 3.5rem;
+}
+.col a img {
+    width: 10rem;
+    height: 5rem;
+}
+.informasi {
+    margin-left: -5rem;
+}
+.informasi ul li {
+    padding-top: 10px;
+}
+.informasi ul li a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #000;
+}
+.informasi ul li a:hover {
+    text-decoration: underline;
+    color: var(--warna-text);
+}
+.hubungi ul li {
+    padding-top: 10px;
+}
+.hubungi h5,
+.informasi h5 {
+    color: var(--warna-text);
+}
+footer p {
+    background: var(--warna-text);
+    text-align: center;
+    padding: 0.8rem;
+    color: #fff;
+    font-weight: 500;
+}

@@ -1,0 +1,173 @@
+:root {
+    --warna-text: #2e5aac;
+    --warna-utama: goldenrod;
+    --secondary: radial-gradient(#138afa, #1e55c5);
+}
+
+/* style */
+* {
+    list-style: none;
+}
+body {
+    overflow-x: hidden;
+    height: 100vh;
+}
+section i {
+    color: var(--warna-utama);
+}
+
+/* style navbar */
+header {
+    background-color: #fff;
+}
+.navbar {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+.navbar a,
+i {
+    color: var(--warna-text);
+}
+
+.navbar a:hover {
+    color: var(--warna-text);
+}
+.list li a:hover {
+    color: var(--warna-utama);
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 26px;
+}
+.fa-water {
+    padding-top: 0.5rem;
+    font-size: 2rem;
+}
+
+/* style button */
+.button {
+    border: 0;
+    background: 0;
+}
+.btn {
+    border: 0;
+    border-radius: 0;
+    background: var(--warna-utama);
+}
+.btn:hover {
+    background: var(--warna-text);
+}
+
+/* style hero */
+#hero {
+    padding-top: 4rem;
+}
+#hero img {
+    height: 570px;
+}
+
+/* style bar */
+.kode-bar {
+    background: var(--secondary);
+}
+
+/* style sertifikat */
+.serat-parent {
+    border: 2px solid var(--warna-utama);
+}
+.serat-alami p {
+    font-size: medium;
+}
+hr {
+    color: var(--warna-utama);
+    border-top: 2px solid var(--warna-utama);
+}
+h1,
+h4 {
+    color: var(--warna-text);
+}
+
+/* style tips */
+#tips .card {
+    border: none;
+    width: 25rem;
+    height: 10rem;
+}
+#tips .card img {
+    border-radius: 0;
+}
+#tips .card h5 {
+    color: var(--warna-text);
+}
+#tips .card p {
+    font-weight: 500;
+}
+#tips .ls-btn {
+    text-align: center;
+    margin-top: 15rem;
+    padding-bottom: 5rem;
+}
+
+/* style follow */
+.fol-bar {
+    background: rgba(221, 221, 221, 0.559);
+}
+.fol-bar div img {
+    background: #fff;
+    border-radius: 30%;
+}
+.fol-bar div h5 {
+    color: var(--warna-text);
+    font-weight: 600;
+}
+
+/* Style Contact & Footer */
+#contact {
+    border-top: 2px solid var(--warna-utama);
+    background: rgba(221, 221, 221, 0.559);
+    padding-bottom: 5rem;
+}
+.icons ul {
+    display: flex;
+    padding-top: 15px;
+}
+.icons ul li {
+    padding: 10px;
+}
+.icons ul li img {
+    padding: 1px;
+    width: 3.5rem;
+    height: 3.5rem;
+}
+.col a img {
+    width: 10rem;
+    height: 5rem;
+}
+.informasi {
+    margin-left: -5rem;
+}
+.informasi ul li {
+    padding-top: 10px;
+}
+.informasi ul li a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #000;
+}
+.informasi ul li a:hover {
+    text-decoration: underline;
+    color: var(--warna-text);
+}
+.hubungi ul li {
+    padding-top: 10px;
+}
+.hubungi h5,
+.informasi h5 {
+    color: var(--warna-text);
+}
+footer p {
+    background: var(--warna-text);
+    text-align: center;
+    padding: 0.8rem;
+    color: #fff;
+    font-weight: 500;
+}
